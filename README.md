@@ -5,16 +5,16 @@ From the time being, people's not only talking about Stream Analytics (Real-time
 ```
 _______ T1 ______________ T2 _________________ T3 _________________ T4 __________________ T5__________
 
-Confidentials  ----> +-----------+    +------------------+                       /---> Users
-Sensors' Data  ----> | IoT/Data  |====| Stream/Realtime  |----> Application 1---/
-Clickstreams   ----> | Ingestion |====|    Analytics     |----> Application 2--------> Machines
-Social Data    ----> |    Hub    |====|  Data Processing |----> Application 3---\
-Other sources  ----> +-----------+    +---||||||||||||---+        o  o  o        \---> Environments  
+Confidentials  ----> +-----------+    +------------------+                        /---> Users
+Sensors' Data  ----> | IoT/Data  |====| Stream/Realtime  |----> Application 1 ---/
+Clickstreams   ----> | Ingestion |====|    Analytics     |----> Application 2 --------> Machines
+Social Data    ----> |    Hub    |====|  Data Processing |----> Application 3 ---\
+Other sources  ----> +-----------+    +---||||||||||||---+        o  o  o         \---> Environments  
                                           VVVVVVVVVVVV            |  |  |
                                       +---||||||||||||---+        |  |  |
                                       |      Data OS     |o-------o--|--o
                                       |   Big Data Lake  |o-------o--o
-                      +---------------+   Distributed FS +---------------------+
-                      | 011000|00001|10101|10010|11101|10101|10101|10101|010010|
-                      | 000100|00011|10101|10101|10101|10100|01011|11100|01010 |
+                     +---------------+   Distributed FS  +--------------------+
+                     | 011000|00001|10101|10010|11101|10101|10101|10101|010010|
+                     | 000100|00011|10101|10101|10101|10100|01011|11100|010101|
 ```
