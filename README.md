@@ -5,7 +5,7 @@ From the time being, people's not only talking about Stream Analytics (Real-time
 ```
 _______ T1 ______________ T2 _________________ T3 _________________ T4 __________________ T5__________
 
-Tagging Data   ----> +-----------+    +------------------+                        /---> Users
+Tagging Data   ----> +-----------+    +------------------+                        /---> People
 Sensors' Data  ----> | IoT/Data  |====| Stream/Realtime  |----> Application 1 ---/
 Clickstreams   ----> | Ingestion |====|    Analytics     |----> Application 2 --------> Machines
 Social Data    ----> |    Hub    |====|  Data Processing |----> Application 3 ---\
