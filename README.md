@@ -3,7 +3,7 @@ A concept about live analytics using mapreduce pattern over the Internet of Thin
 
 From the time being, people's not only talking about Stream Analytics (Real-time Analytics) but also deploying solutions and products using the technology around BigData, IoT and Cloud Computing in their enterprise companies everywhere. The concept of the existing solution can explain by this diagram:
 ```
-+----- T1 ---------------- T2 ---------------- T3 ----------------- T4 ---------------- T5 ------------+      
+_______ T1 ______________ T2 _________________ T3 _________________ T4 __________________ T5__________
 
 Confidentials  ----> +-----------+    +------------------+                       /---> Users
 Sensors' Data  ----> | IoT/Data  |====| Stream/Realtime  |----> Application 1---/
