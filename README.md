@@ -1,0 +1,3 @@
+# live-analytics-using-mapreduce-over-iot
+A concept about live analytics using mapreduce pattern over the Internet of Things
+...
