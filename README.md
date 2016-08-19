@@ -7,11 +7,11 @@ Confidentials  ----> +-----------+    +------------------+                      
 Sensors' Data  ----> | IoT/Data  |====| Streaming Data   |----> Application 1---/
 Clickstreams   ----> | Ingestion |====|    Analytics     |----> Application 2--------> Machines
 Social Data    ----> |    Hub    |====| Machine Learning |----> Application 3---\
-Other sources  ----> +-----------+    +---||||||||||||---+            o          \---> Environments  
-                                          VVVVVVVVVVVV                |
-                                      +---||||||||||||---+         |
-                                      |      Data OS     |o--------o
-                                      |   Big Data Lake  |
+Other sources  ----> +-----------+    +---||||||||||||---+        o  o  o        \---> Environments  
+                                          VVVVVVVVVVVV            |  |  |
+                                      +---||||||||||||---+        |  |  |
+                                      |      Data OS     |o-------o--|--o
+                                      |   Big Data Lake  |o-------o--o
 +-------------------------------------+   Distributed FS +----------------------------------------------+
 | 01100010000010010101010101010100100111011101010101010101011010010101010101010101001010111111000001010 |
 ```
