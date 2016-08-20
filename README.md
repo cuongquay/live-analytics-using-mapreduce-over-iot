@@ -9,9 +9,9 @@ Tagging Data   ----> +-----------+    +------------------+                      
 Sensors' Data  ----> | IoT/Data  |====| Stream/Realtime  |----> Application 1 ---/
 Clickstreams   ----> | Ingestion |====|    Analytics     |----> Application 2 --------> Machines
 Social Data    ----> |    Hub    |====|  Data Processing |----> Application 3 ---\
-Other sources  ----> +-----------+    +---||||||||||||---+        o  o  o         \---> Environments  
-                                          VVVVVVVVVVVV            |  |  |
-                                      +---||||||||||||---+        |  |  |
+Other sources  ----> +-----------+    +---|||||||||AAA---+        o  o  o         \---> Environments  
+                                          ||||||||||||            |  |  |
+                                      +---YYYYYYYYY|||---+        |  |  |
                                       |      Data OS     |o-------o--|--o
                                       |   Big Data Lake  |o-------o--o
                      +---------------+   Distributed FS  +--------------------+
